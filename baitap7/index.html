@@ -1,0 +1,1591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>bai tap 6</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!--main-->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+</head>
+<!--font-awesome-->
+<!--
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+<i class="fa fa-google-plus" aria-hidden="true"></i>
+<i class="fa fa-bars" aria-hidden="true"></i>
+<i class="fa fa-heart-o" aria-hidden="true"></i>
+<i class="fa fa-angle-up" aria-hidden="true"></i>
+<i class="fa fa-angle-down" aria-hidden="true"></i>
+<i class="fa fa-angle-left" aria-hidden="true"></i>
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+<i class="fa fa-search" aria-hidden="true"></i>
+<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+<i class="fa fa-retweet" aria-hidden="true"></i>
+-->
+
+<body <header>
+    <div class="header-top">
+        <div class="contaner">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="top-left">
+                        <div class="dropdown left-money left-item">
+                            <div id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>USD</span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">Euro</a></li>
+                                <li><a href="#">Viet Nam dong</a></li>
+                                <li><a href="#">cent</a></li>
+
+                            </ul>
+                        </div>
+                        <!--End .dropdown .left-money .left-item-->
+                        <div class="dropdown left-languages left-item">
+                            <div id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>English</span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">Vietnamese</a></li>
+                                <li><a href="#">chinese</a></li>
+                                <li><a href="#">Japanese</a></li>
+                            </ul>
+                        </div>
+                        <!--End .dropdown .left-languages .left-item-->
+                        <div class="left-share left-item">
+                            <a href="https://www.facebook.com/" class="left-share__link"><i class="fa fa-facebook left-share__icon" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/" class="left-share__link"><i class="fa fa-twitter left-share__icon" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/" class="left-share__link"><i class="fa fa-pinterest-p left-share__icon" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/" class="left-share__link"><i class="fa fa-google-plus left-share__icon" aria-hidden="true"></i></a>>
+                        </div>
+                        <!--End .dropdown .left-share .left-item-->
+                    </div>
+                    <!--End .top-left-->
+                </div>
+                <div class="col-sm-6">
+                    <div class="top-right">
+                        <div class="right-item">
+                            <a href="#" class="right-item__link">Welcome to KuteShop</a>
+                        </div>
+                        <!--End .right-item-->
+                        <div class="right-item">
+                            <a href="#" class="right-item__link">My Account</a>
+                        </div>
+                        <!--End .right-item-->
+                        <div class="right-item">
+                            <a href="#" class="right-item__link">About us</a>
+                        </div>
+                        <!--End .right-item-->
+                        <div class="right-item">
+                            <a href="#" class="right-item__link">Support</a>
+                        </div>
+                        <!--End .right-item-->
+                    </div>
+                    <!--End .top-right-->
+                </div>
+            </div>
+            <!--End .row-->
+        </div>
+        <!--End .container-->
+    </div>
+    <!--End .header-top-->
+    <div class="div header-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <form action="#" method="get" class="form-search">
+                        <input type="text" class="form-search__input">
+                        <button class="form-search__btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <div class="header-logo">
+                        <img src="images/logo.png" alt="" class="header-logo__img">
+                    </div>
+                    <!--End .header-logo-->
+                </div>
+                <div class="col-sm-4">
+                    <div class="header-select">
+                        <div class="select-item select-buy">
+                            <a href="#" class="select-item__link"><i class="fa fa-shopping-cart" aria-hidden="true" seclect-item__icon></i></a>
+                            <span class="select-item__selected">2</span>
+                        </div>
+                        <!--End .select-item .select-buy-->
+                        <div class="select-item select-like">
+                            <a href="#" class="select-item__link"><i class="fa fa-heart-o" aria-hidden="true" seclect-item__icon></i></a>
+                            <span class="select-item__selected">2</span>
+                        </div>
+                        <!--End .select-item .select-like-->
+                        <div class="select-item select-compare">
+                            <a href="#" class="select-item__link"><i class="fa fa-retweet" aria-hidden="true" seclect-item__icon></i></a>
+                            <span class="select-item__selected">2</span>
+                        </div>
+                        <!--End .select-item .select-compare-->
+                    </div>
+                    <!--End .header-select-->
+                </div>
+            </div>
+            <!--End .row-->
+        </div>
+        <!--End .container-->
+    </div>
+    <!--End .header-center-->
+    <div class="header-nav">
+        <div class="container">
+            <div class="nav-categories">
+                <i class="fa fa-bars nav-categories__icon" aria-hidden="true"></i>
+            </div>
+            <!--End .nav-categories-->
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#" class="nav-list__link">Home</a></li>
+                <li class="nav-list__item">Fashion <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="detail-list">
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Summer Dresses</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Casual Dresses</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Blouses</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Skirts</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">JUmpsuits</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">T-Shirts</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Jackets</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Bikinis</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Sunglasses</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Scarves</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Hair Accessories</a>
+                        </li>
+                    </ul>
+                    <!--End .detail-list-->
+                </li>
+                <li class="nav-list__item">Sports<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="detail-list">
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Tent</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Hiking Shoes</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Cycling Jerseys</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Boxing</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Fitness</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Basketball Shoes</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Table Tennis</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Carp Fishing</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Bikes Lights</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Fishing Tackle Bags</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Camping Stoves</a>
+                        </li>
+                    </ul>
+                    <!--End .detail-list-->
+                </li>
+                <li class="nav-list__item">Electronics <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="detail-list">
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">SOOCOO S60</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Xiaomi Sports camera</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Monopod</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Mp3 Player</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Micro SD Card</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Smart watches</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Smart Wristbands</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">TV</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">projector</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Gaming</a>
+                        </li>
+                    </ul>
+                    <!--End .detail-list-->
+                </li>
+                <li class="nav-list__item">Digital <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="detail-list">
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">The perfect tablet selfie</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Laptop Batteries</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Tablet</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Mouse</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Keyboard</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Tenda router</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">3D printer</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Laser Pens</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Printer Supplies</a>
+                        </li>
+                    </ul>
+                    <!--End .detail-list-->
+                </li>
+                <li class="nav-list__item">Furnitures <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="detail-list">
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Cross Stitch</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Diamond Painting</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Cake Tools</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Cooking Tools</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Curtain</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Bedding</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Wall Décor</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Decorative Flowers</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Home Storage</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Pest Control</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Pet Products</a>
+                        </li>
+                    </ul>
+                    <!--End .detail-list-->
+                </li>
+                <li class="nav-list__item">Jewelry <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="detail-list">
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Multi-Layer Necklaces</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">925 Silver</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Pearl Jewelry</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Friendship Bracelets</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Statement Necklaces</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Brinco</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Body Chains</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">DIY Beads</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Digital Watches</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Dress Watches</a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a href="#" class="detail-list__link">Men’s Watches</a>
+                        </li>
+                    </ul>
+                    <!--End .detail-list-->
+                </li>
+                <li class="nav-list__item"><a href="#" class="nav-list__link">Blog</a></li>
+            </ul>
+            <!--End .nav-list-->
+        </div>
+        <!--End .container-->
+    </div>
+    <!--End .header-nav-->
+    </header>
+    <!--End header-->
+    <section>
+        <div class="section-banner">
+            <div class="container">
+                <div class="banner-main">
+                    <img src="images/banner.png" alt="" class="banner-main__img">
+                </div>
+                <!--End .banner-main-->
+            </div>
+            <!--End .container-->
+        </div>
+        <!--End .secton-banner-->
+        <div class="section-deals">
+            <div class="deals-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="deals-left">
+                                <h2 class="deals-left__tittle">LATEST DEALS</h2>
+                            </div>
+                            <!--End .deals-left-->
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="deals-right">
+                                <i class="fa fa-clock-o deals-right_-icon" aria-hidden="true"></i>
+                                <p>ENDS IN <span class="deals-right__time">12 Days</span> : <span class="deals-right__time">25Hrs</span> : <span class="deals-right__time">56Mns</span> : <span class="deals-right__time">06 Secs</span></p>
+                                <i class="fa fa-angle-left deals-right__left" aria-hidden="true"></i>
+                                <i class="fa fa-angle-right deals-right__right" aria-hidden="true"></i>
+                            </div>
+                            <!--End .deals-right-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .deals-header-->
+            <div class="deals-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="deals-item">
+                                <div class="deals-img">
+                                    <img src="images/deals_1.png" alt="" class="deals-img__main">
+                                </div>
+                                <!--End deals-img--->
+                                <p class="deals-item__desc">Maecenas Consequat Mauris</p>
+                                <p class="deals-item__ptices">$38.95 <span class="deals-item__cancel">$52.00</span></p>
+                                <img src="images/sale.png" alt="" class="deals-item__sales">
+                                <i class="fa fa-search deals-item__icon deals-item__zoom" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o deals-item__icon deals-item__like" aria-hidden="true"></i>
+                                <i class="fa fa-retweet deals-item__icon deals-item__compare" aria-hidden="true"></i>
+                                <div class="deals-add">
+                                    <i class="fa fa-shopping-cart deals-add__icon" aria-hidden="true"></i>
+                                    <p class="deals-add__desc">Add to cart</p>
+                                </div>
+                                <!--End .deals-add-->
+                            </div>
+                            <!--End .deals-item-->
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="deals-item">
+                                <div class="deals-img">
+                                    <img src="images/deals_2.png" alt="" class="deals-img__main">
+                                </div>
+                                <!--End deals-img--->
+                                <p class="deals-item__desc">Maecenas Consequat Mauris</p>
+                                <p class="deals-item__ptices">$38.95 <span class="deals-item__cancel">$52.00</span></p>
+                                <img src="images/sale.png" alt="" class="deals-item__sales">
+                                <i class="fa fa-search deals-item__icon deals-item__zoom" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o deals-item__icon deals-item__like" aria-hidden="true"></i>
+                                <i class="fa fa-retweet deals-item__icon deals-item__compare" aria-hidden="true"></i>
+                                <div class="deals-add">
+                                    <i class="fa fa-shopping-cart deals-add__icon" aria-hidden="true"></i>
+                                    <p class="deals-add__desc">Add to cart</p>
+                                </div>
+                                <!--End .deals-add-->
+                            </div>
+                            <!--End .deals-item-->
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="deals-item">
+                                <div class="deals-img">
+                                    <img src="images/deals_3.png" alt="" class="deals-img__main">
+                                </div>
+                                <!--End deals-img--->
+                                <p class="deals-item__desc">Maecenas Consequat Mauris</p>
+                                <p class="deals-item__ptices">$38.95 <span class="deals-item__cancel">$52.00</span></p>
+                                <img src="images/sale.png" alt="" class="deals-item__sales">
+                                <i class="fa fa-search deals-item__icon deals-item__zoom" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o deals-item__icon deals-item__like" aria-hidden="true"></i>
+                                <i class="fa fa-retweet deals-item__icon deals-item__compare" aria-hidden="true"></i>
+                                <div class="deals-add">
+                                    <i class="fa fa-shopping-cart deals-add__icon" aria-hidden="true"></i>
+                                    <p class="deals-add__desc">Add to cart</p>
+                                </div>
+                                <!--End .deals-add-->
+                            </div>
+                            <!--End .deals-item-->
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="deals-item">
+                                <div class="deals-img">
+                                    <img src="images/deals_4.png" alt="" class="deals-img__main">
+                                </div>
+                                <!--End deals-img--->
+                                <p class="deals-item__desc">Maecenas Consequat Mauris</p>
+                                <p class="deals-item__ptices">$38.95 <span class="deals-item__cancel">$52.00</span></p>
+                                <img src="images/sale.png" alt="" class="deals-item__sales">
+                                <i class="fa fa-search deals-item__icon deals-item__zoom" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o deals-item__icon deals-item__like" aria-hidden="true"></i>
+                                <i class="fa fa-retweet deals-item__icon deals-item__compare" aria-hidden="true"></i>
+                                <div class="deals-add">
+                                    <i class="fa fa-shopping-cart deals-add__icon" aria-hidden="true"></i>
+                                    <p class="deals-add__desc">Add to cart</p>
+                                </div>
+                                <!--End .deals-add-->
+                            </div>
+                            <!--End .deals-item-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+        </div>
+        <!--end .section-deals-->
+        <div class="section-ads">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="abs-left">
+                            <img src="images/ads_men.png" alt="" class="abs-left__img">
+                        </div>
+                        <!--End .abs-left-->
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="abs-right">
+                            <img src="images/ads_women.png" alt="" class="abs-right__img">
+                        </div>
+                        <!--End .abs-right-->
+                    </div>
+                </div>
+                <!--End .row-->
+            </div>
+            <!--End container-->
+        </div>
+        <!--End .section-ads-->
+        <div class="div section-fashion">
+            <div class="section-header fashion-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="section-title fashion-title">
+                                <i class="fa fa-female section-title__icon" aria-hidden="true"></i>
+                                <h2 class="section-title__main">fashion</h2>
+                                <i class="fa fa-angle-right section-title__right" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="type-head">
+                                <ul class="type-list">
+                                    <li class="type-list__item type-list__salers">Best salers</li>
+                                    <li class="type-list__item type-list__specials">Specials</li>
+                                    <li class="type-list__item type-list__amival">New Amival</li>
+                                    <li class="type-list__item type-list__reviews">Most Reviews</li>
+                                </ul>
+                                <div class="type-right">
+                                    <img src="images/run.png" alt="" class="type-right__img">
+                                    <i class="fa fa-angle-up type-right__up" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-down type-right__down" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <!--End .type-head-->
+                        </div>
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End.section-header-->
+            <div class="section-main fashion-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="categories-list fashion-list">
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Summer Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Casual Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Blouses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Skirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">JUmpsuits</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">T-Shirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Jackets</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Bikinis</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Sunglasses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Scarves</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Hair Accessories</a>
+                                </li>
+                            </ul>
+                            <!--End categories-list-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-highlights fashion-highlights">
+                                <div class="highlights-picture">
+                                    <img src="images/fashion_highlight.png"a alt="" class="highlights-picture__img">
+                                </div>
+                                <!--End .highlights-picture-->
+                                <h3 class="product-highlights__title">Fashion</h3>
+                                <p class="product-highlights__collect">SUMMER COLLECTION</p>
+                                <p class="product-highlights__desc">generations</p>
+                                <a href="#" class="product-highlights__link">SHOP NOW</a>
+                            </div>
+                            <!--End .product-highlights-->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-all fashion-product"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/fashion_item1.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/fashion_item2.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/fashion_item3.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/fashion_item4.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/fashion_item5.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/fashion_item6.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                            </div>
+                            <!--End .row-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .section-main .fashion-body-->
+        </div>
+        <!--End.section-fashion-->
+         <div class="section-sports">
+            <div class="section-header sports-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="section-title">
+                                <i class="fa fa-female section-title__icon" aria-hidden="true"></i>
+                                <h2 class="section-title__main">sports</h2>
+                                <i class="fa fa-angle-right section-title__right" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="type-head">
+                                <ul class="type-list">
+                                    <li class="type-list__item type-list__salers">Best salers</li>
+                                    <li class="type-list__item type-list__specials">Specials</li>
+                                    <li class="type-list__item type-list__amival">New Amival</li>
+                                    <li class="type-list__item type-list__reviews">Most Reviews</li>
+                                </ul>
+                                <div class="type-right">
+                                    <img src="images/run.png" alt="" class="type-right__img">
+                                    <i class="fa fa-angle-up type-right__up" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-down type-right__down" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <!--End .type-head-->
+                        </div>
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End.section-header-->
+            <div class="section-main sports-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="categories-list sports-list">
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Summer Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Casual Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Blouses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Skirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">JUmpsuits</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">T-Shirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Jackets</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Bikinis</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Sunglasses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Scarves</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Hair Accessories</a>
+                                </li>
+                            </ul>
+                            <!--End categories-list-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-highlights sports-highlights">
+                                <div class="highlights-picture">
+                                    <img src="images/sport_highlight.png" alt="" class="highlights-picture__img">
+                                </div>
+                                <!--End .highlights-picture-->
+                                <h3 class="product-highlights__title">Fashion</h3>
+                                <p class="product-highlights__collect">SUMMER COLLECTION</p>
+                                <p class="product-highlights__desc">generations</p>
+                                <a href="#" class="product-highlights__link">SHOP NOW</a>
+                            </div>
+                            <!--End .product-highlights-->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-all sports-product"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/sport_item1.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/sport_item2.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/sport_item3.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/sport_item4.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/sport_item5.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/sport_item6.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item .sports-product-->
+                                </div>
+                            </div>
+                            <!--End .row-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .section-main .sports-body-->
+        </div>
+        <!--End.section-sports-->
+         <div class="section-electronics">
+            <div class="section-header eletronics-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="section-title fashion-title">
+                                <i class="fa fa-female section-title__icon" aria-hidden="true"></i>
+                                <h2 class="section-title__main">electronics</h2>
+                                <i class="fa fa-angle-right section-title__right" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="type-head">
+                                <ul class="type-list">
+                                    <li class="type-list__item type-list__salers">Best salers</li>
+                                    <li class="type-list__item type-list__specials">Specials</li>
+                                    <li class="type-list__item type-list__amival">New Amival</li>
+                                    <li class="type-list__item type-list__reviews">Most Reviews</li>
+                                </ul>
+                                <div class="type-right">
+                                    <img src="images/run.png" alt="" class="type-right__img">
+                                    <i class="fa fa-angle-up type-right__up" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-down type-right__down" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <!--End .type-head-->
+                        </div>
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End.section-header .electronics-header-->
+            <div class="section-main .electronics-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="categories-list">
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Summer Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Casual Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Blouses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Skirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">JUmpsuits</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">T-Shirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Jackets</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Bikinis</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Sunglasses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Scarves</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Hair Accessories</a>
+                                </li>
+                            </ul>
+                            <!--End categories-list-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-highlights electronics-highlights">
+                                <div class="highlights-picture">
+                                    <img src="images/electronics_highlight.png" alt="" class="highlights-picture__img">
+                                </div>
+                                <!--End .highlights-picture -->
+                                <h3 class="product-highlights__title">Fashion</h3>
+                                <p class="product-highlights__collect">SUMMER COLLECTION</p>
+                                <p class="product-highlights__desc">generations</p>
+                                <a href="#" class="product-highlights__link">SHOP NOW</a>
+                            </div>
+                            <!--End .product-highlights .electronics-highlights-->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-all electronics-product"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/electronics_item1.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/electronics_item2.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/electronics_item3.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/electronics_item4.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/electronics_item5.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/electronics_item6.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                            </div>
+                            <!--End .row-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .section-main .electronics-body-->
+        </div>
+        <!--End.section-electronics-->
+         <div class="div section-digital">
+            <div class="section-header degital-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="section-title">
+                                <i class="fa fa-female section-title__icon" aria-hidden="true"></i>
+                                <h2 class="section-title__main">digital</h2>
+                                <i class="fa fa-angle-right section-title__right" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="type-head">
+                                <ul class="type-list">
+                                    <li class="type-list__item type-list__salers">Best salers</li>
+                                    <li class="type-list__item type-list__specials">Specials</li>
+                                    <li class="type-list__item type-list__amival">New Amival</li>
+                                    <li class="type-list__item type-list__reviews">Most Reviews</li>
+                                </ul>
+                                <div class="type-right">
+                                    <img src="images/run.png" alt="" class="type-right__img">
+                                    <i class="fa fa-angle-up type-right__up" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-down type-right__down" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <!--End .type-head-->
+                        </div>
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End.section-header-->
+            <div class="section-main digital-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="categories-list">
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Summer Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Casual Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Blouses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Skirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">JUmpsuits</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">T-Shirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Jackets</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Bikinis</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Sunglasses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Scarves</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Hair Accessories</a>
+                                </li>
+                            </ul>
+                            <!--End categories-list-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-highlights digital-highlights">
+                                <div class="highlights-picture">
+                                    <img src="images/digital_highlight.png" alt="" class="highlights-picture__img">
+                                </div>
+                                <!--End .highlights-picture-->
+                                <h3 class="product-highlights__title">Fashion</h3>
+                                <p class="product-highlights__collect">SUMMER COLLECTION</p>
+                                <p class="product-highlights__desc">generations</p>
+                                <a href="#" class="product-highlights__link">SHOP NOW</a>
+                            </div>
+                            <!--End .product-highlights-->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-all digital-product"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/digital_item1.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/digital_item2.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/digital_item3.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/digital_item4.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/digital_item5.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/digital_item6.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                            </div>
+                            <!--End .row-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .section-main-->
+        </div>
+        <!--End.section-fashion-->
+         <div class="div section-furniture">
+            <div class="section-header furniture-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="section-title">
+                                <i class="fa fa-female section-title__icon" aria-hidden="true"></i>
+                                <h2 class="section-title__main">furniture</h2>
+                                <i class="fa fa-angle-right section-title__right" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="type-head">
+                                <ul class="type-list">
+                                    <li class="type-list__item type-list__salers">Best salers</li>
+                                    <li class="type-list__item type-list__specials">Specials</li>
+                                    <li class="type-list__item type-list__amival">New Amival</li>
+                                    <li class="type-list__item type-list__reviews">Most Reviews</li>
+                                </ul>
+                                <div class="type-right">
+                                    <img src="images/run.png" alt="" class="type-right__img">
+                                    <i class="fa fa-angle-up type-right__up" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-down type-right__down" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <!--End .type-head-->
+                        </div>
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End.section-header .furniture-header-->
+            <div class="section-main furniture-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="categories-list">
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Summer Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Casual Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Blouses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Skirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">JUmpsuits</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">T-Shirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Jackets</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Bikinis</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Sunglasses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Scarves</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Hair Accessories</a>
+                                </li>
+                            </ul>
+                            <!--End categories-list-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-highlights furniture-highlights">
+                                <div class="highlights-picture">
+                                    <img src="images/furniture_highlight.png" alt="" class="highlights-picture__img">
+                                </div>
+                                <!--End .highlights-picture-->
+                                <h3 class="product-highlights__title">Fashion</h3>
+                                <p class="product-highlights__collect">SUMMER COLLECTION</p>
+                                <p class="product-highlights__desc">generations</p>
+                                <a href="#" class="product-highlights__link">SHOP NOW</a>
+                            </div>
+                            <!--End .product-highlights-->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-all furniture-product"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/furniture_item1.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/furniture_item2.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/furniture_item3.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/furniture_item4.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/furniture_item5.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/furniture_item6.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                            </div>
+                            <!--End .row-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .section-main-->
+        </div>
+        <!--End.section-furniture-->
+         <div class="section-jewelry">
+            <div class="section-header jewelry-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="section-title">
+                                <i class="fa fa-female section-title__icon" aria-hidden="true"></i>
+                                <h2 class="section-title__main">jewelry</h2>
+                                <i class="fa fa-angle-right section-title__right" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-10">
+                            <div class="type-head">
+                                <ul class="type-list">
+                                    <li class="type-list__item type-list__salers">Best salers</li>
+                                    <li class="type-list__item type-list__specials">Specials</li>
+                                    <li class="type-list__item type-list__amival">New Amival</li>
+                                    <li class="type-list__item type-list__reviews">Most Reviews</li>
+                                </ul>
+                                <div class="type-right">
+                                    <img src="images/run.png" alt="" class="type-right__img">
+                                    <i class="fa fa-angle-up type-right__up" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-down type-right__down" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <!--End .type-head-->
+                        </div>
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End.section-header .jewelry-header-->
+            <div class="section-main jewelry-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="categories-list">
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Summer Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Casual Dresses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Blouses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Skirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">JUmpsuits</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">T-Shirts</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Jackets</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Bikinis</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Sunglasses</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Scarves</a>
+                                </li>
+                                <li class="categories-list__item">
+                                    <a href="#" class="categories-list__link">Hair Accessories</a>
+                                </li>
+                            </ul>
+                            <!--End categories-list-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-highlights jewelry-product">
+                                <div class="highlights-picture">
+                                    <img src="images/jewelry_highlight.png" alt="" class="highlights-picture__img">
+                                </div>
+                                <!--End .highlights-picture-->
+                                <h3 class="product-highlights__title">Fashion</h3>
+                                <p class="product-highlights__collect">SUMMER COLLECTION</p>
+                                <p class="product-highlights__desc">generations</p>
+                                <a href="#" class="product-highlights__link">SHOP NOW</a>
+                            </div>
+                            <!--End .product-highlights-->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="product-all jewelry-product"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/jewelry_item1.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/jewelry_item2.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/jewelry_item3.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/jewelry_item4.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/jewelry_item5.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item">
+                                        <h3 class="product-item__title">headphone & earphone</h3>
+                                        <p class="product-item__price">$38.95</p>
+                                        <p class="product-item__cancel">$52.00</p>
+                                        <div class="product-picture">
+                                            <img src="images/jewelry_item6.png" alt="" class="product-picture__img">
+                                        </div>
+                                        <!--End .product-picture-->
+                                    </div>
+                                    <!--End .product-item-->
+                                </div>
+                            </div>
+                            <!--End .row-->
+                        </div>
+                    </div>
+                    <!--End .row-->
+                </div>
+                <!--End .container-->
+            </div>
+            <!--End .section-main-->
+        </div>
+        <!--End.section-fashion-->
+        
+    </section>
+    <!--End section-->
+    <footer>
+
+    </footer>
+    <!--End footer-->
+    <!--jquery-->
+    <script src="js/jquery-3.2.1.js"></script>
+    <!--js__bootstrap-->
+    <script src="js/bootstrap.js"></script>
+    <!--js__main-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
