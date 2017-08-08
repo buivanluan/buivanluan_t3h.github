@@ -29,7 +29,7 @@
                                         <span>English</span>
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <ul class="dropdown-menu dropdown-access" aria-labelledby="dropdownMenu2">
                                         <li><a href="#">Vietnamese</a></li>
                                         <li><a href="#">chinese</a></li>
                                         <li><a href="#">japanese</a></li>
@@ -41,9 +41,9 @@
                             <!--End left-languages .left-item-->
                             <div class="left-phone left-item">
                                 <i class="fa fa-phone left-phone__icon" aria-hidden="true"></i>
-                                <span class="left-phone__number">1(800)686-6688</span>
+                                <a href="tel:1(800)686-6688" class="left-phone__link">1(800)686-6688</a>
                             </div>
-                            <!--End .left-phone left-item-->
+                            <!--End .left-phone .left-item-->
                         </div>
                         <!--End .top-left-->
                     </div>
@@ -71,7 +71,7 @@
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                     <!--End #dropdownMenu2-->
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <ul class="dropdown-menu dropdown-access" aria-labelledby="dropdownMenu2">
                                         <li><a href="#">Sign out</a></li>
                                         <li><a href="#">Register</a></li>
                                     </ul>
@@ -96,64 +96,67 @@
             <!--End .container-->
         </div>
         <!--End .header-top-->
-        <div class="header-nav">
+        <nav class="navbar navbar-default header-nav">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-xs-12">
-                        <div class="nav-logo">
-                            <img src="images/logo.png" alt="" class="nav-logo__img">
-                        </div>
-                        <!--End .logo-->
-                    </div>
-                    <div class="col-md-9 col-xs-12">
-                        <ul class="nav-list">
-                            <li class="nav-list__item"><a href="#" class="nav-list__link">Layouts</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-list__link">pages</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-list__link">work</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-list__link">Blog</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-list__link">shop</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-list__link">Elements</a></li>
-                            <li class="nav-list__item nav-list__getquote"><a href="#" class="nav-list__link ">GET A QUOTE</a></li>
-                        </ul>
-                    </div>
-                    <i class="fa fa-list-alt  fa-2x" aria-hidden="true" id="nav__open"></i>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                    <a class="navbar-brand nav-logo__link"><img src="images/logo.png" alt="" class="nav-logo__img"></a>
                 </div>
-                <!--End .row-->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="navbar-right__item"><a href="#" class="navbar-right__link">Layouts</a></li>
+                        <li class="navbar-right__item"><a href="#" class="navbar-right__link">pages</a></li>
+                        <li class="navbar-right__item"><a href="#" class="navbar-right__link">work</a></li>
+                        <li class="navbar-right__item"><a href="#" class="navbar-right__link">Blog</a></li>
+                        <li class="navbar-right__item"><a href="#" class="navbar-right__link">shop</a></li>
+                        <li class="navbar-right__item"><a href="#" class="navbar-right__link">Elements</a></li>
+                        <li class="navbar-right__item navbar-right__getquote"><a href="#" class="navbar-right__link ">GET A QUOTE</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
             <!--End .container-->
-        </div>
+        </nav>
         <!--End .header-nav-->
     </header>
     <!--End header-->
     <section>
         <div class="section-banner">
-           <div class="banner-slider">
-              <div class="slider-item">
-                  <img src="images/banner_0.png" alt="" class="slider-item__img">
-                  <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
-              </div>
-              <!--End .slider-item-->
-              <div class="slider-item">
-                  <img src="images/banner_1.png" alt="" class="slider-item__img">
-                  <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
-              </div>
-              <!--End .slider-item-->
-              <div class="slider-item">
-                  <img src="images/banner_2.png" alt="" class="slider-item__img">
-                  <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
-              </div>
-              <!--End .slider-item-->
-              <div class="slider-item">
-                  <img src="images/banner_3.png" alt="" class="slider-item__img">
-                 <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
-              </div>
-              <!--End .slider-item-->
-              <div class="slider-item">
-                  <img src="images/banner_4.png" alt="" class="slider-item__img">
-                  <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
-              </div>
-              <!--End .slider-item-->
-           </div>
+            <div class="banner-slider">
+                <div class="slider-item">
+                    <img src="images/banner_0.png" alt="" class="slider-item__img">
+                    <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
+                </div>
+                <!--End .slider-item-->
+                <div class="slider-item">
+                    <img src="images/banner_1.png" alt="" class="slider-item__img">
+                    <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
+                </div>
+                <!--End .slider-item-->
+                <div class="slider-item">
+                    <img src="images/banner_2.png" alt="" class="slider-item__img">
+                    <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
+                </div>
+                <!--End .slider-item-->
+                <div class="slider-item">
+                    <img src="images/banner_3.png" alt="" class="slider-item__img">
+                    <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
+                </div>
+                <!--End .slider-item-->
+                <div class="slider-item">
+                    <img src="images/banner_4.png" alt="" class="slider-item__img">
+                    <p class="slider-item__desc">2017 - Ha Noi, Viet Nam.</p>
+                </div>
+                <!--End .slider-item-->
+            </div>
             <!--End .banner-slider-->
         </div>
         <!--End .section-banner-->
@@ -211,9 +214,25 @@
         </div>
         <!--End .mission-->
         <div class="section-video">
-           <div class="video-control">
-               <img src="images/play.png" alt="" class="video-control__start" id="video__play">
-           </div>   
+            <!-- Button trigger modal -->
+            <div class="video-control" data-toggle="modal" data-target="#myModal">
+                <img src="images/play.png" alt="" class="video-control__img">
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/coBEyIwYE-c" frameborder="0" allowfullscreen class="modal-body__video"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
         <!--End .section-video-->
         <div class="section-skill">
@@ -221,7 +240,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="skill-item">
-                            <i class="fa fa-cog skill-item__icon fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-cog skill-item__icon" aria-hidden="true"></i>
                             <h3 class="skill-item__title">customizability</h3>
                             <p class="skill-item__desc">Don't be distracted by criticism. Remember the only taste of success some people. </p>
                         </div>
@@ -229,7 +248,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="skill-item">
-                            <i class="fa fa-pencil skill-item__icon fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-pencil skill-item__icon " aria-hidden="true"></i>
                             <h3 class="skill-item__title">customizability</h3>
                             <p class="skill-item__desc">Don't be distracted by criticism. Remember the only taste of success some people. </p>
                         </div>
@@ -237,7 +256,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="skill-item">
-                            <i class="fa fa-tachometer skill-item__icon fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-tachometer skill-item__icon" aria-hidden="true"></i>
                             <h3 class="skill-item__title">customizability</h3>
                             <p class="skill-item__desc">Don't be distracted by criticism. Remember the only taste of success some people. </p>
                         </div>
@@ -279,12 +298,12 @@
                     <div class="item">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4 col-sm-12">
+                                <div class="col-md-4">
                                     <div class="quote-avatar">
                                         <img src="images/avatar.png" class="quote-avatar__img" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 col-sm-12">
+                                <div class="col-md-8">
                                     <div class="quote-body">
                                         <i class="fa fa-quote-left quote-body__title" aria-hidden="true"></i>
                                         <p class="quote-body__desc">I wanted to mention that these day. When the opposite of good customer and tech support tend to be the norm, it's alway great having team like you guys at Yolo! So be sure that i'll always spread the word about how good your product is and the extraodinary level of support that you provide any time there is any need for it.</p>
@@ -333,12 +352,21 @@
         <div class="section-brand">
             <div class="container">
                 <div class="brand-body">
-                    <img src="images/brand1.png" alt="" class="brand-body__img">
-                    <img src="images/brand2.png" alt="" class="brand-body__img">
-                    <img src="images/brand3.png" alt="" class="brand-body__img">
-                    <img src="images/brand4.png" alt="" class="brand-body__img">
-                    <img src="images/brand5.png" alt="" class="brand-body__img">
-                    <img src="images/brand6.png" alt="" class="brand-body__img">
+                    <div class="brand-slideshow">
+                        <div class="brand-slider">
+                            <img src="images/brand1.png" alt="" class="brand-slider__img brand-slider__first">
+                            <img src="images/brand2.png" alt="" class="brand-slider__img">
+                        </div>
+                        <div class="brand-slider">
+                            <img src="images/brand3.png" alt="" class="brand-slider__img">
+                            <img src="images/brand4.png" alt="" class="brand-slider__img">
+                        </div>
+                        <div class="brand-slider">
+                            <img src="images/brand5.png" alt="" class="brand-slider__img">
+                            <img src="images/brand6.png" alt="" class="brand-slider__img brand-slider__last">
+                        </div>
+                    </div>
+
                 </div>
                 <!--End .band-body-->
             </div>
@@ -411,7 +439,7 @@
     <!--js__bootstrap-->
     <script src="js/bootstrap.js"></script>
     <!--js__main-->
-    <script src="js/main.js"></script>
+    <!--    <script src="js/main.js"></script>-->
 </body>
 
 </html>
