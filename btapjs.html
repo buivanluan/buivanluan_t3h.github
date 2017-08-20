@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <script>
+        var x = prompt("nhập vào số can nang :");
+        var y = prompt("nhập vào số chieu cao :");
+        tinhAPI(x, y);
+        function tinhAPI(a, b) {
+            var c, d;
+            c = b * b;
+            d = a / c;
+            document.body.innerHTML = '<p>Chi so API cua ban la: ' + d + '</p>'
+            if (d < 18.5) {
+                document.body.innerHTML += '<p>ban co than hinh duoi chuan</p>'
+
+            } else if (d >= 18.5 && d < 25) {
+                document.body.innerHTML += '<p>ban co than hinh chuan</p>'
+
+            } else if (d >= 25 && d < 30) {
+                document.body.innerHTML += '<p>ban co than thua can</p>'
+
+            } else if (d >= 30 && d <= 40) {
+                document.body.innerHTML += '<p>ban co than hinh beo, nen giam can</p>'
+
+            } else if (d > 40) {
+                document.body.innerHTML += '<p>ban  co than hinh rat beo nen giam can</p>'
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
